@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+
+    --Grayish-Black: hsl(217, 19%, 38%);
+    --Dark-Grayish-Black: hsl(217, 19%, 24%);
+    --Dark-Black: hsl(218, 23%, 16%);
+
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--Dark-Black);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-container{
+    width: 400px;
+    background-color: var(--Dark-Grayish-Black);
+    border-radius: 15px;
+    padding: 4rem;
+    text-align: center;
+    position: relative;
+}
+.advice{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--Light-Cyan);
+    margin: 1rem 0;
+
+}
+.advice-id{
+    color: var(--Neon-Green);
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+#btn{
+    background-color: var(--Neon-Green);
+    padding: 1rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%);
+    bottom: -2rem;
+
+}
+.btn-container{
+    margin-top: 2rem;
+}
+picture img{
+    width: 100%;
+    margin: 1rem 0;
+}
+.white{
+    color: white;
+}
+@media (max-width:475px) {
+    .main-container{
+        width: 350px;
+        min-width: 90%;
+    }
+    
+}
