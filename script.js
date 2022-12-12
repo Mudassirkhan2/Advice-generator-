@@ -11,8 +11,8 @@ p.then((response)=>{
     let data1 = data
     console.log(data1.slip.id)
     console.log(data1.slip.advice)
-    advice.innerHTML=data1.slip.advice
-    id.innerHTML=`"${data1.slip.id} "`
+    advice.innerHTML=`"${data1.slip.advice}"`;
+    id.innerHTML=`${data1.slip.id} `
 })
 btn.addEventListener("click",()=>{
     location.reload();
