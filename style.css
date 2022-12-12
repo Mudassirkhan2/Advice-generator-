@@ -59,6 +59,10 @@ body{
     bottom: -2rem;
 
 }
+#btn:hover{
+    background-color: hsl(150, 100%, 50%);
+    box-shadow: rgba(48, 255, 6, 0.6) 0px 5px 15px;
+}
 .btn-container{
     margin-top: 2rem;
 }
